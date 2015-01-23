@@ -1,0 +1,35 @@
+<html>
+<head>
+  <script type="text/javascript" src="jquery-1.11.1.min.js"></script>
+  <script type="text/javascript" src="ejemplo.js"></script>
+</head>
+<body>
+ 
+ <form id="form" name="datos" method="post" action="#">
+  <input type="text" id="nombre" value="" placeholder="Ingrese el nombre"><br>
+  <input type="text" id="apellidos" value="" placeholder="Ingrese los apellidos"><br>
+  <input type="text" id="email" value="" placeholder="Ingrese el email"><br>
+  <input type="submit" value="Agregar">
+ </form>
+
+ <div style="margin-top: 45px;">
+   <table id="registros">
+     <thead>
+      <th>Nombre</th>
+      <th>Email</th>
+      <th>Opciones</th>
+     </thead>
+     <tbody>
+     </tbody>
+     <tfoot>
+       <tr>
+        <td colspan="3">
+          Total: 0 registros
+        </td>
+       </tr>
+     </tfoot>
+    </table>
+ </div>
+
+</body>
+</html>

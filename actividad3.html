@@ -1,0 +1,35 @@
+<html lang="Es-MX">
+<head>
+  <script type="text/javascript" src="jquery-1.11.2.min.js"></script>
+  <script type="text/javascript" src="actividad3.js"></script>
+</head>
+<body>
+<h3>Actividad #3: Acceso a Web Services</h3>
+
+<div id="content">
+<label>Selecciona una opción:</label>
+<select id="JSONTest">
+
+  <option value="http://date.jsontest.com/">date.jsontest.com/</option>
+  <option value="http://echo.jsontest.com/key/value/one/two">echo.jsontest.com/key/value/one/two</option>
+  <option value="http://ip.jsontest.com/">ip.jsontest.com/</option>
+  <option value="http://headers.jsontest.com/">headers.jsontest.com/</option>
+</select>
+
+<p>Respuesta del servicio seleccionado:</p>
+<div id="resultadoJSON" style="margin-top: 35px; border: solid 1px #ccc;">
+  Aquí se muestra la respuesta del servicio seleccionado.
+</div>
+
+<div>
+  <form action="#">
+    <label>Buscar lugar:</label>
+    <input type="text" id="lugarBuscar" />
+  </form>
+  <div id="datosLugar" style="margin-top: 35px; border: solid 1px #ccc;">
+    Aquí se muestran los datos del lugar.
+  </div>
+</div>
+</div>
+</body>
+</html>
